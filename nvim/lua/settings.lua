@@ -15,8 +15,8 @@ local opt = vim.opt         	-- global/buffer/windows-scoped options
 -----------------------------------------------------------
 -- General
 -----------------------------------------------------------
--- g.mapleader = ','             -- change leader to a comma
--- opt.mouse = 'a'               -- enable mouse support
+g.mapleader = ' '             -- change leader to space
+-- opt.mouse = 'a'            -- enable mouse support
 opt.clipboard = 'unnamedplus' -- copy/paste to system clipboard
 opt.swapfile = false          -- don't use swapfil
 
